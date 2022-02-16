@@ -1,0 +1,16 @@
+<div class="container main-container mid-container">
+	
+    {{result}}
+    <br>
+    carregando {{carregar}}
+    <br><br>
+    <h5>seu nome?</h5>
+    <form (ngSubmit)="onSubmit($event)">
+        <input name="player" (keyup)="onKey($event)">
+    </form>
+    <br>
+    <h5>new: </h5>{{name}}
+    <br>
+    <h5>current: </h5>{{search}}
+
+</div>

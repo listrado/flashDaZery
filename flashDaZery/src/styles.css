@@ -1,0 +1,45 @@
+/* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+.main-container {
+    padding-top: 100px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow:hidden;
+ }
+
+.footer {
+  height: 50px;
+  text-align: center;
+} 
+.mid-container{
+	text-align: center;
+}
+#background {  
+    background-color: #aaa;
+    min-height: 600px;
+}  
+#background2 {  
+    background-image: url("/assets/pictures/bombinha.png");
+    min-height: 600px;
+}
+#background3 {  
+    color: #fff;
+    background-color: #833;
+    min-height: 600px;
+}  
+#background4 {  
+    color: #fff;
+    background-color: #000;
+    min-height: 600px;
+}  
+#background5 {  
+    color: #333;
+    background-color: #000;
+    min-height: 600px;
+}  
+.example-form-field {
+  width: 200px;
+}
